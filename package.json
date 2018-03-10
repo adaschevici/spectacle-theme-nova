@@ -20,6 +20,7 @@
     "start": "melodrama-scripts start example/index.js",
     "build": "webpack",
     "test": "ava",
+    "postinstall": "cp lib/postcss.config.js .",
     "docs": "melodrama-scripts build example/index.js",
     "lint": "eslint ."
   },
